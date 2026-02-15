@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>666个写作灵感 | 创意写作游戏</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>灵感抽取</h1>
+            <p>从 666 个创意写作题目中随机获取一个</p>
+        </header>
+
+        <main class="card">
+            <div class="content-wrapper">
+                <span class="quote-mark">“</span>
+                <p id="question-display">点击下方按钮开始抽取...</p>
+                <span class="quote-mark right">”</span>
+            </div>
+        </main>
+
+        <div class="actions">
+            <button id="draw-btn">✨ 抽取新灵感</button>
+            <button id="copy-btn" class="secondary-btn" style="display:none;">复制题目</button>
+        </div>
+        
+        <footer>
+            <p>共收录 <span id="total-count">0</span> 个写作练习</p>
+        </footer>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
